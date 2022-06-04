@@ -10,6 +10,7 @@
     "scripts": {
         "start": "turbo run start",
         "build": "turbo run build",
+        "npm": "turbo run npm",
         "exports": "exports --publish",
         "dev": "turbo run dev --parallel"
     },
