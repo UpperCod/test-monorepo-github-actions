@@ -1,0 +1,26 @@
+{
+    "name": "@uppercod/test-cabuknitiy-2",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "exports src/*.{tsx,jsx} --exports --analyzer --css-literals-postcss --types --watch",
+        "npm": "exports src/*.{tsx,jsx} --exports --analyzer --css-literals-postcss --types --publish"
+    },
+    "dependencies": {
+        "atomico": "latest",
+        "@atomico/react": "latest",
+        "@types/react": "latest"
+    },
+    "devDependencies": {
+        "tsconfig": "*",
+        "precss": "latest",
+        "postcss-import": "latest"
+    },
+    "postcss": {
+        "plugins": {
+            "postcss-import": {},
+            "precss": {}
+        }
+    }
+}

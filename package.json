@@ -1,0 +1,25 @@
+{
+    "name": "turborepo-basic-shared",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "start": "turbo run start",
+        "build": "turbo run build",
+        "exports": "exports --publish",
+        "dev": "turbo run dev --parallel"
+    },
+    "devDependencies": {
+        "@atomico/exports": "^0.33.0",
+        "turbo": "latest",
+        "typescript": "latest"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": false
+    }
+}
