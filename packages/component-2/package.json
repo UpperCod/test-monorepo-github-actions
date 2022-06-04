@@ -2,7 +2,9 @@
     "name": "@uppercod/test-cabuknitiy-2",
     "type": "module",
     "version": "0.0.0",
-    "private": true,
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "dev": "exports src/*.{tsx,jsx} --exports --analyzer --css-literals-postcss --types --watch",
         "npm": "exports src/*.{tsx,jsx} --exports --analyzer --css-literals-postcss --types --publish"
