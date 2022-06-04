@@ -4,6 +4,10 @@ function component2() {
     return <host shadowDom></host>;
 }
 
+component2.props = {
+    show: Boolean,
+};
+
 component2.styles = css`
     @import "./component-2.css";
 `;

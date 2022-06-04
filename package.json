@@ -8,15 +8,14 @@
         "packages/*"
     ],
     "scripts": {
-        "start": "turbo run start",
-        "build": "turbo run build",
-        "npm": "turbo run npm",
-        "exports": "exports --publish",
-        "dev": "turbo run dev --parallel"
+        "start": "lage start",
+        "build": "lage build",
+        "npm": "lage npm --no-cache",
+        "exports": "exports --publish"
     },
     "devDependencies": {
         "@atomico/exports": "^0.33.2",
-        "turbo": "latest",
+        "lage": "^0.41.0",
         "typescript": "latest"
     },
     "prettier": {
