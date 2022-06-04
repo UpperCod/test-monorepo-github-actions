@@ -15,7 +15,7 @@
         "dev": "turbo run dev --parallel"
     },
     "devDependencies": {
-        "@atomico/exports": "^0.33.1",
+        "@atomico/exports": "^0.33.2",
         "turbo": "latest",
         "typescript": "latest"
     },
