@@ -1,6 +1,6 @@
 {
     "name": "turborepo-basic-shared",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "private": true,
     "type": "module",
     "workspaces": [
@@ -8,7 +8,8 @@
         "packages/*"
     ],
     "scripts": {
-        "start": "lage start",
+        "start": "lage start --verbose",
+        "dev": "lage dev --verbose",
         "build": "lage build",
         "npm": "lage npm --no-cache",
         "exports": "exports --publish"

@@ -1,8 +1,14 @@
-export default {
+/**
+ * @type {import("lage").ConfigOptions}
+ */
+const config = {
     npmClient: "npm",
     pipeline: {
-        start: ["start", "dev"],
+        start: ["start"],
+        dev: ["dev"],
         build: ["build"],
         npm: ["npm"],
     },
 };
+
+export default config;
