@@ -14,7 +14,7 @@
         "npm": "lage npm --no-cache"
     },
     "devDependencies": {
-        "@atomico/exports": "^0.33.2",
+        "@atomico/exports": "^0.33.3",
         "lage": "^0.41.0",
         "typescript": "latest"
     },
