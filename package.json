@@ -11,8 +11,7 @@
         "start": "lage start --verbose",
         "dev": "lage dev --verbose",
         "build": "lage build",
-        "npm": "lage npm --no-cache",
-        "exports": "exports --publish"
+        "npm": "lage npm --no-cache"
     },
     "devDependencies": {
         "@atomico/exports": "^0.33.2",
