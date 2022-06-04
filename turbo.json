@@ -6,7 +6,8 @@
         },
         "npm": {
             "dependsOn": ["^npm"],
-            "outputs": ["dist/**", "types/**"]
+            "outputs": ["dist/**", "types/**"],
+            "cache": false
         },
         "start": {
             "dependsOn": ["^start"]
